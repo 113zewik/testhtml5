@@ -1,0 +1,49 @@
+/* css soubor */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color:darkslategray;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+p {
+    color:cadetblue;
+    margin: 2em;
+}
+
+#prvni {
+    color:coral;
+}
+
+h1 {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+h2 {
+    margin: 2em 0 1em 1em;
+}
+
+ul, ol {
+    margin: 1em;
+
+}
+
+li {
+    margin-left: 3emx;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
