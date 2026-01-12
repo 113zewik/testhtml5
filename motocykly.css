@@ -1,4 +1,4 @@
-/* css soubor */
+/* Základní nastavení */
 
 * {
     margin: 0;
@@ -7,43 +7,67 @@
 }
 
 body {
-    background-color: aliceblue;
-    color:darkslategray;
     font-family: Arial, Helvetica, Verdana, sans-serif;
-}
-p {
-    color:cadetblue;
-    margin: 2em;
+    background-color: #eef6ff;
+    color: #2c3e50;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 
-#prvni {
-    color:coral;
-}
+/* Nadpisy */
 
 h1 {
-    margin-left: 2em;
-    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e88e5;
 }
 
 h2 {
-    margin: 2em 0 1em 1em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #1565c0;
 }
 
-ul, ol {
-    margin: 1em;
+/* Text */
 
+p {
+    margin-bottom: 15px;
 }
 
-li {
-    margin-left: 3em;
-}
+/* Odkazy */
 
 a {
-    color: orange;
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
     text-decoration: none;
+    margin-top: 10px;
 }
 
 a:hover {
+    background-color: #f57c00;
     text-decoration: underline;
-    color: yellow;
+}
+
+/* Obrázky */
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Mobilní zobrazení */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
 }
