@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#vysledek {
+    font-size: 24px;
+    background-color: white;
+    border: 1px gray;
+    display: inline-block;
+    padding: 10px;
+    min-width: 200px;   
+}
+
+#formular {
+    background-color: white;
+    padding: 10px;
+    border: 1px gray;
+    display: inline-block;
+}
+
+input {
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;   
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    border: 1px gray;
+}
